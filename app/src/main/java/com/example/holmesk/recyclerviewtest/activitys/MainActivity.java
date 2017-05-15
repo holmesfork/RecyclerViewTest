@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         //97623
         //德玛西亚
         //嘿嘿哈哈哈哈哈
+        //hahaahahaahahaha
         init();
     }
 
