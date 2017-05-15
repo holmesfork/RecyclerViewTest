@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.holmesk.recyclerviewtest.activitys.NetActivity">
+
+
+    <Button
+        android:id="@+id/tb_get"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="同步GET"/>
+
+    <Button
+        android:id="@+id/yb_get"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="异步GET"/>
+
+    <Button
+        android:id="@+id/form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="表单提交"/>
+
+    <Button
+        android:id="@+id/download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下载"/>
+
+    <Button
+        android:id="@+id/tb_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="同步post"/>
+
+    <Button
+        android:id="@+id/yb_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="异步post"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/mytv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="aaaaaa"
+            android:textSize="20sp"/>
+    </ScrollView>
+</LinearLayout>
