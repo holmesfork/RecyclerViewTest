@@ -30,7 +30,11 @@ public class MainActivity extends AppCompatActivity {
         //shangzhemingwangbadan
         //菜逼南
         //97623
+        //德玛西亚
+        init();
+    }
 
+    private void init() {
     }
 
     private void initData() {
